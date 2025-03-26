@@ -18,7 +18,7 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 # ELEVEN_LABS_API_KEY = os.getenv('ELEVEN_LABS_API_KEY')
-ELEVEN_LABS_API_KEY = "sk_06c7f34d0ad0c692feafecb34058ac45d61ca5ac839d6fce"
+ELEVEN_LABS_API_KEY = "use the key"
 
 client = ElevenLabs(api_key=ELEVEN_LABS_API_KEY)
 
