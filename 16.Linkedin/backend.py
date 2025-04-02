@@ -8,6 +8,7 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+#get the api key from the join proxyurl 
 API_KEY = os.getenv('PROXY_URL_LINKEDIN')
 API_ENDPOINT = "https://nubela.co/proxycurl/api/v2/linkedin"
 HEADERS = {'Authorization': 'Bearer ' + API_KEY}
