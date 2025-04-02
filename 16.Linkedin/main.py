@@ -1,5 +1,5 @@
 import requests
-API_KEY = "GP90CyHPUHJsSZPXr2XTfQ"
+API_KEY = ""
 
 headers = {'Authorization': 'Bearer ' + API_KEY}
 api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
